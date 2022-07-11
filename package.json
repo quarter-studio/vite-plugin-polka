@@ -1,0 +1,42 @@
+{
+  "name": "vite-plugin-polka",
+  "version": "1.0.0",
+  "description": "Build and deploy a Polka server using Vite",
+  "main": "index.ts",
+  "files": [
+    "index.ts",
+    "server.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quarter-studio/vite-plugin-polka.git"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "polka",
+    "server",
+    "node",
+    "nodejs"
+  ],
+  "author": {
+    "name": "Wilson Lewis",
+    "email": "wilsonlewis@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quarter-studio/vite-plugin-polka/issues"
+  },
+  "homepage": "https://github.com/quarter-studio/vite-plugin-polka#readme",
+  "dependencies": {
+    "polka": "^0.5.2",
+    "sirv": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "@types/polka": "^0.5.4",
+    "prettier": "^2.7.1",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
+  }
+}
